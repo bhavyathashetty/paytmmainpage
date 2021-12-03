@@ -1,0 +1,43 @@
+button.blueB {
+  background: #eeedf3;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: 18px;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 150px;
+  height: 60px;
+}
+
+button.blueB:hover {
+  background: #2dc8ce;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  div.footer {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  div.footer {
+    height: auto;
+    width: 100vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  div.footer {
+    height: 100%;
+    width: auto;
+  }
+}
+
+span.highlight {
+  color: #407b88;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Footer.css.map */

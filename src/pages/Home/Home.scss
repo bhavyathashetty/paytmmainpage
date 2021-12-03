@@ -1,0 +1,44 @@
+span.kyc{
+    width:100vh;
+   
+}
+
+
+
+button.sigin{
+    background:rgb(13, 15, 15);
+    padding: 7px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+
+&:hover{
+    background:white;
+    color: black;
+    border-color: black;
+}
+}
+
+div.home{
+   
+    @media only screen and (max-width:600px){
+        height: 100%;
+        width: 100%;
+        margin: 0;
+      
+    
+    } 
+    @media only screen and (min-width:600px){
+        height: 100%;
+        width: auto;
+        margin: 0;
+        
+    
+    } 
+    @media only screen and (min-width:992px){
+        height: 100%;
+        width: auto;
+        
+    
+    }  
+}

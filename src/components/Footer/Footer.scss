@@ -1,0 +1,41 @@
+button.blueB{
+    background:rgb(238, 237, 243);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color:black;
+    font-size: 18px;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+
+&:hover{
+    background:rgb(45, 200, 206);
+    color: black;
+}
+}
+div.footer{
+    @media only screen and (max-width:600px){
+        height: auto;
+        width: 100%;
+        
+      
+    
+    } 
+    @media only screen and (min-width:600px){
+        height: auto;
+        width: 100vh;
+        
+    
+    } 
+    @media only screen and (min-width:992px){
+        height: 100%;
+        width: auto;
+        
+    
+    }  
+}
+span.highlight{
+    color:rgb(64, 123, 136);
+    font-weight: bold;
+}

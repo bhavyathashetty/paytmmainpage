@@ -1,0 +1,66 @@
+img.size{
+    @media only screen and (max-width:600px){
+        height: 100vh;
+        width: 100vh;
+        
+    
+    } 
+    @media only screen and (min-width:600px){
+        height: 100vh;
+        width: 100vh;
+    
+    } 
+    @media only screen and (min-width:992px){
+        height: 500px;
+        width: 600px;
+        top: 500px;
+    
+    }   
+    
+}
+button.download{
+    background:rgb(13, 15, 15);
+    padding: 7px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+
+&:hover{
+    background:white;
+    color: black;
+    border-color: black;
+}
+}
+button.learnmore{
+    background:rgb(16, 1, 90);
+    padding: 6px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+
+&:hover{
+    background:rgb(45, 200, 206);
+}
+}
+div.pay{
+   
+    @media only screen and (max-width:600px){
+        height: 100%;
+        width: 100vh;
+        
+      
+    
+    } 
+    @media only screen and (min-width:600px){
+        height: 100%;
+        width: 100vh;
+        
+    
+    } 
+    @media only screen and (min-width:992px){
+        height: 100%;
+        width: auto;
+        
+    
+    }  
+}

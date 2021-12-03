@@ -1,0 +1,12 @@
+button.signin {
+  background: #2dc8ce;
+  padding: 6px 20px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+button.signin:hover {
+  background: #170468;
+}
+/*# sourceMappingURL=Navbar.css.map */

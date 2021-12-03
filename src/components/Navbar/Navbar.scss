@@ -1,0 +1,11 @@
+button.signin{
+    background:rgb(45, 200, 206);
+    padding: 6px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+
+&:hover{
+    background: rgb(23, 4, 104);
+}
+}
